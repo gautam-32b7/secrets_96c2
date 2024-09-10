@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', system-ui;
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+form {
+  width: 25%;
+  margin: 9.6rem auto;
+  padding: 2.4rem 4.8rem;
+  border: 1px solid #495057;
+}
+
+form h1 {
+  color: #212529;
+  font-size: 2.4rem;
+  margin-bottom: 2.4rem;
+}
+
+form label {
+  color: #212529;
+  display: block;
+  font-size: 1.6rem;
+  margin-bottom: 8px;
+}
+
+form input {
+  color: #212529;
+  display: block;
+  font-family: inherit;
+  font-size: 1.6rem;
+  padding: 1.2rem 2.4rem;
+  margin-bottom: 1.2rem;
+  border: 1px solid #495057;
+  width: 100%;
+}
+
+form input:focus {
+  outline: none;
+  border: 1px solid #1c7ed6;
+}
+
+form button {
+  color: #e6fcf5;
+  font-family: inherit;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border: none;
+  background-color: #099268;
+  padding: 1.2rem 2.4rem;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+form button:hover {
+  background-color: #0ca678;
+}
+
+/* secrets page */
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+  padding: 9.6rem 4.8rem;
+  /* border: 1px solid; */
+}
+
+ul li {
+  color: #263238;
+  font-size: 2rem;
+  line-height: 1.6;
+}
+
+ul li strong {
+  color: #6695ff;
+}
+
+p {
+  color: #212529;
+  font-size: 2.4rem;
+  margin: 4.8rem 0;
+  text-align: center;
+}
+.secrets-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4.8rem;
+  border: 1px solid #adb5bd;
+  border-radius: 1.2rem;
+  margin-bottom: 9.6rem;
+}
+
+.image-box img {
+  object-fit: cover;
+  width: 100%;
+}
